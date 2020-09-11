@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>AdmitKard</title>
+        <script>
+            //get the plugin to work without loading jQuery
+            window.jQuery = window.$ = function() {
+                return {
+                    on: function() {}
+                };
+            };
+            window.$.fn = {};
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/10.0.2/js/intlTelInput.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/10.0.2/js/utils.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/9.0.6/css/intlTelInput.css'>
+        <link rel='stylesheet' href='https://intl-tel-input.com/node_modules/intl-tel-input/build/css/demo.css?3'>
+        <link rel="stylesheet" href="./css/index.css">
+    </head>
+    <body>
+        <div class="container" >
+            <form id="contact" onsubmit="alert('Otp Sent!!!'); window.location.href = 'otp.html';">
+                <br>
+            <h1><span style = "color:rgb(107, 149, 228) ; font-size: 60px">Admit</span><span style="font-size : 60px">Kard</span></h1>
+            <br><br><br>
+            <h3>Welcome Back 😃</h3>
+            <h4>Sign in to your account</h4>
+            <br>
+            <p style="text-align: left;">Enter Contact Number:</p>
+            <fieldset>
+                <input style="padding-left: 55px" pattern="[1-9]{1}[0-9]{9}" type="tel"> <br/> <br/>
+            </fieldset>
+            <p style="text-align: center;">We will send you a one time SMS message.</p>
+            <p style="text-align: center; ">Charges may apply.</p>
+            <br><br><br><br><br>
+            <fieldset>
+                <button type="submit" class="btn btn-round">Sign In with OTP</button>
+            </fieldset>
+        </form>
+    </div>
+    </body>
+
+    <script src='https://codepen.io/jackocnr/pen/ggzEjv.js'></script>
+    <script src="./js/script.js"></script>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>AdmitKard</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+        $(document).ready(function(){
+            $('input').keyup(function(){
+                if(this.value.length==$(this).attr("maxlength")){
+                    $(this).next().focus();
+                }
+            });
+        });
+        </script>
+        <link rel="stylesheet" href="./css/otp.css">
+    </head>
+    <body>
+        <div class="container">
+            <form id="contact" onsubmit="alert('Login Successfull!!!'); window.location.href = 'sucess.html';">
+                <br><br>
+            <h1 style="text-align:center"><span style = "color:rgb(107, 149, 228) ; font-size: 60px">Admit</span><span style="font-size : 60px">Kard</span></h1>
+            <img style="display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 170px;
+            height:150px" src="images/otpverify.JPG" alt="OTPVerify image" >
+            <h3>OTP Verification</h3>
+            <a style="cursor: pointer; text-decoration: underline; color: orange" href="index.html" >Change Phone Number</a>
+            <h4>Please enter the 4-digit verification code we sent via SMS:</h4>
+            <div id="form">
+                <input type="text" maxLength="1" size="1" min="0" max="9" pattern="[0-9]{1}" required/>
+                <input type="text" maxLength="1" size="1" min="0" max="9" pattern="[0-9]{1}" required />
+                <input type="text" maxLength="1" size="1" min="0" max="9" pattern="[0-9]{1}" required/>
+                <input type="text" maxLength="1" size="1" min="0" max="9" pattern="[0-9]{1}" required/>
+                <br><br>
+            <button type="submit" id="button" class="btn btn-primary btn-embossed">Verify</button>
+            </div>
+            <br><br>
+            <p style="color: black;">Didn't Recieve the code?<a style=" cursor: pointer; text-decoration: underline; color: orange;" onclick="location.reload()">Resend</a></p>
+            <br>
+        </form>
+        </div>
+        <script src="./js/script.js"></script>
+    </body>
+</html>
