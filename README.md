@@ -28,7 +28,7 @@ Screen-3: Success Screen
 8. Success Page
 
 ## Preview
-*Video recording of the app is attached in the video folder*
+`*Video recording of the app is attached in the video folder*`
 
 `Screen-1:Mobile Number Screen`
 
