@@ -3,13 +3,6 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-font-smoothing: antialiased;
-    -moz-font-smoothing: antialiased;
-    -o-font-smoothing: antialiased;
-    text-rendering: optimizeLegibility;
 }
 
 body{
@@ -51,7 +44,7 @@ body{
     text-align: center;
     width: 40%;
     border: none;
-    background: rgb(235, 161, 25);
+    background: orange;
     color: white;
     margin: 0 0;
     padding: 10px;
@@ -60,7 +53,8 @@ body{
 }
 
 #contact h1{
-    font-size: 25px;
+    font-size: 27px;
+    font-weight: 600;
     color: black;
 }
 

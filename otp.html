@@ -17,7 +17,7 @@
     </head>
     <body>
         <div class="container">
-            <form id="contact" onsubmit="alert('Login Successfull!!!'); window.location.href = 'sucess.html';">
+            <form id="contact" method="POST" onsubmit="return check()">
                 <br><br>
             <h1 style="text-align:center"><span style = "color:rgb(107, 149, 228) ; font-size: 60px">Admit</span><span style="font-size : 60px">Kard</span></h1>
             <img style="display: block;
@@ -29,12 +29,12 @@
             <a style="cursor: pointer; text-decoration: underline; color: orange" href="index.html" >Change Phone Number</a>
             <h4>Please enter the 4-digit verification code we sent via SMS:</h4>
             <div id="form">
-                <input type="text" maxLength="1" size="1" min="0" max="9" pattern="[0-9]{1}" required/>
-                <input type="text" maxLength="1" size="1" min="0" max="9" pattern="[0-9]{1}" required />
-                <input type="text" maxLength="1" size="1" min="0" max="9" pattern="[0-9]{1}" required/>
-                <input type="text" maxLength="1" size="1" min="0" max="9" pattern="[0-9]{1}" required/>
+                <input id="a" type="text" maxLength="1" size="1" min="0" max="9" pattern="[0-9]{1}" required/>
+                <input id="b" type="text" maxLength="1" size="1" min="0" max="9" pattern="[0-9]{1}" required />
+                <input id="c" type="text" maxLength="1" size="1" min="0" max="9" pattern="[0-9]{1}" required/>
+                <input id="d" type="text" maxLength="1" size="1" min="0" max="9" pattern="[0-9]{1}" required/>
                 <br><br>
-            <button type="submit" id="button" class="btn btn-primary btn-embossed">Verify</button>
+            <button type="submit" class="btn btn-primary btn-embossed">Verify</button>
             </div>
             <br><br>
             <p style="color: black;">Didn't Recieve the code?<a style=" cursor: pointer; text-decoration: underline; color: orange;" onclick="location.reload()">Resend</a></p>
