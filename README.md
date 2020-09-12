@@ -9,6 +9,13 @@ Screen-3: Success Screen
 
 ### Hosted at: 
 
+## How to USE & RUN
+1. Clone the Project or download the zip folder.
+2. Go to the Folder.
+3. Click on "index.html".
+4. It will open on default browser.
+5. Happy Learning.
+
 ## Functionality
 `Screen-1`
 1. Enter Mobile Number (and change country if required).
@@ -45,5 +52,4 @@ Screen-3: Success Screen
 
 
 
-## How to RUN
-1. 
+
