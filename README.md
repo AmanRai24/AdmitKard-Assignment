@@ -29,6 +29,7 @@ Screen-3: Success Screen
 
 ## Preview
 *Video recording of the app is attached in the video folder*
+
 `Screen-1:Mobile Number Screen`
 
 ![SCREEN-1](/images/screen1.JPG)
