@@ -7,7 +7,7 @@ Screen-2: OTP Verification
 
 Screen-3: Success Screen 
 
-### Hosted at: 
+### Hosted at: https://amanrai24.github.io/AdmitKard-Assignment/
 
 ## How to USE & RUN
 1. Clone the Project or download the zip folder.
