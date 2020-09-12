@@ -27,6 +27,22 @@ Screen-3: Success Screen
 8. Success Page
 
 ## Preview
+`Screen-1:Mobile Number Screen`
+
+![SCREEN-1](/images/screen1.JPG)
+
+`Screen-2:OTP Verification`
+
+*Here if you enter wrong mobile number you can change phone number by clicking on "Change Phone Number" and if you haven't received OTP click on "RESEND".*
+
+![SCREEN-2](/images/screen2.JPG)
+
+`Screen-3: Success Screen`
+
+![SCREEN-1](/images/screen3.JPG)
+
+
+
 
 
 ## How to RUN
