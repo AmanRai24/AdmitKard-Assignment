@@ -9,6 +9,7 @@ Screen-3: Success Screen
 
 ### Hosted at: https://amanrai24.github.io/AdmitKard-Assignment/
 
+
 ## Functionality
 `Screen-1`
 1. Enter Mobile Number (and change country if required).
@@ -27,6 +28,7 @@ Screen-3: Success Screen
 8. Success Page
 
 ## Preview
+*Video recording of the app is attached in the video folder*
 `Screen-1:Mobile Number Screen`
 
 ![SCREEN-1](/images/screen1.JPG)
