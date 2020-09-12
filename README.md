@@ -28,7 +28,7 @@ Screen-3: Success Screen
 8. Success Page
 
 ## Preview
-`*Video recording of the app is attached in the video folder*`
+`Video recording of the app:`*https://drive.google.com/file/d/1NdCymcRESa1AHHjImqyEOgNBn74OoHy_/view?usp=sharing*
 
 `Screen-1:Mobile Number Screen`
 
