@@ -2,7 +2,9 @@
 An web application where user can enter mobile number and we can verify
 
 Screen-1: Mobile Number Screen
-Screen-2: OTP Verification Screen
+
+Screen-2: OTP Verification 
+
 Screen-3: Success Screen 
 
 ### Hosted at: 
